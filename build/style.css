@@ -1,0 +1,152 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.main {
+  margin-top: 12.5%;
+}
+
+.logo-image {
+  width: 250px;
+  display: block;
+  margin-bottom: 3.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-input {
+  display: block;
+  border-radius: 24px;
+  border: 1px solid#dfe1e5;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 1px;
+  width: 500px;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.frequent-tile-group {
+  margin: 0 auto;
+  width: 450px;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.frequent-tile {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.frequent-tile:hover {
+  cursor: pointer;
+  background-color: #e1e7f7;
+}
+
+.more-btn {
+  border: none;
+  padding: 0;
+  /* transform: rotate(90deg); */
+  margin-left: 90%;
+}
+
+.more-btn:hover {
+  cursor: pointer;
+  padding: 1px;
+  border-radius: 50px;
+  /* border: none; */
+}
+
+.hidden {
+  display: none;
+}
+
+.bigger-icon-radius {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(230, 243, 247);
+  opacity: 1;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 23%;
+}
+
+.smaller-icon-radius {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.tile-name {
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .main {
+    margin-top: 35%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .main {
+    margin-top: 25%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .logo-image {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .logo-image {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .search-input {
+    width: 350px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .search-input {
+    width: 550px;
+    line-height: 24px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .frequent-tile-group {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 950px) {
+  .frequent-tile-group {
+    width: 530px;
+  }
+}
